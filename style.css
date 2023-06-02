@@ -81,7 +81,7 @@ img {
     height: 200px;
     font-size: 36px;
     font-weight: 900;
-    padding: 150px;
+    padding: 150px 150px 50px 150px;
 }
 .quotator {
     margin-left: auto;
