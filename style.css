@@ -50,6 +50,9 @@ a {
 .subtext {
     font-size: 0.5em;
 }
+.main > img {
+    width: 300px;
+}
 .title {
     font-size: 36px;
     font-weight: 900;
@@ -69,6 +72,7 @@ img {
     border-radius: 20px;
 
 }
+
 .text {
     text-align: center;
     font-size: large;
