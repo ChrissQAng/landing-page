@@ -87,3 +87,26 @@ img {
     margin-left: auto;
     font-size: 22px;
 }
+#purchase {
+    height:400px;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+.purchase-box {
+    background-color: blue;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 600px;
+    border-radius: 10px;
+}
+.purchase-box > p {
+    color: white;
+}
+.call {
+    font-size: 30px;
+    font-weight: 600;
+}
