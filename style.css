@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    font-famil: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .header {
     background-color: #1f2937;
@@ -13,6 +13,8 @@ body {
     font-size: 34px;
     color: #f9faf8;
     gap: 5px;
+    
+    /* position: fixed; */
 }
 
 .logo {
@@ -81,7 +83,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightgray;
+    background-color: #e5e7eb;
     height: 200px;
     font-size: 36px;
     font-weight: 900;
@@ -99,15 +101,14 @@ img {
     align-items: center;
 }
 .purchase-box {
-    background-color: blue;
+    background-color: #3882f6;
     margin: 30px;
     display: flex;
-    flex-direction: column;
     padding: 50px;
     width: 600px;
     border-radius: 10px;
 }
-.purchase-box > p {
+.p-text > p {
     color: white;
 }
 .call {
@@ -115,8 +116,21 @@ img {
     font-weight: 600;
 }
 button.purchase-button {
-    background: white;
-    border: 1px solid black;
-    padding: 8px 16 px;
+    background: #3882f6;
+    border: 2px solid white;
     border-radius: 8px;
+    margin-left: auto;
+    padding: 8px 16px;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    color: #f9faf8;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
 }
